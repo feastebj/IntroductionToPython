@@ -14,7 +14,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 """
 ########################################################################
 #
-# TODO: 1.
+# DONE: 1.
 #  (Yes, that means for YOU to DO things per these instructions:)
 #
 # On Line 13 above, replace  PUT_YOUR_OWN_NAME_HERE  with your OWN name.
@@ -29,7 +29,7 @@ import rosegraphics as rg
 
 ########################################################################
 #
-# TODO: 2.
+# DONE: 2.
 #   Allow this file to use the rosegraphics.py file by marking the src
 #   directory as a "Sources Root".  Do that by right clicking on the src folder,
 #   then selector  Mark Directory As --> Sources Root
@@ -60,9 +60,9 @@ dave = rg.SimpleTurtle()
 # ----------------------------------------------------------------------
 # Ask the SimpleTurtle objects to do things:
 # ----------------------------------------------------------------------
+dave.forward(150)
+dave.left(40)
 dave.forward(100)
-dave.left(90)
-dave.forward(200)
 
 # ----------------------------------------------------------------------
 # Construct a new turtle and ask it to do things.
@@ -72,12 +72,14 @@ matt.pen = rg.Pen('red', 30)
 matt.speed = 10  # Faster
 matt.backward(50)
 matt.left(90)
-matt.forward(50)
-
+matt.forward(150)
+matt.backward(80)
+matt.left(10)
+matt.forward(150)
 
 ########################################################################
 #
-# TODO: 3.
+# DONE: 3.
 #   Add a few more line of your own code above to make one of the
 #   existing Turtles move some more and/or have different
 #   characteristics.
@@ -109,7 +111,13 @@ matt.forward(50)
 #   As always, test by running the module.
 #
 ########################################################################
-
+turtle = rg.SimpleTurtle('turtle')
+turtle.pen = rg.Pen('purple', 10)
+matt.speed = 5  # Faster
+matt.forward(100)
+matt.left(100)
+matt.backward(100)
+matt.right(10)
 ########################################################################
 #
 # TODO: 5.
