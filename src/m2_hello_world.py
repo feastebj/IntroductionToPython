@@ -13,7 +13,7 @@ print('Hello, World')
 
 ########################################################################
 #
-# TODO: 1.
+# DONE: 1.
 #   (Yes, that means for YOU to DO things per these instructions:)
 #
 #   Run this module by right clicking anywhere in this window and select
@@ -73,7 +73,7 @@ print('Hello, World')
 #   (HINT: It is an INTERESTING number.)  Get help if your value is wrong.
 #
 ########################################################################
-
+print(3404 * 837)
 ########################################################################
 #
 # TODO: 5.
