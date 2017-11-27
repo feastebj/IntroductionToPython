@@ -26,7 +26,7 @@ print('Hello, World')
 
 ########################################################################
 #
-# TODO: 2.
+# DONE: 2.
 #   Notice the small horizontal BLUE bars on the scrollbar-like thing
 #   on the right.  Each blue bar indicates a TO DO in this module.
 #
@@ -59,10 +59,10 @@ print('Hello, World')
 #   Look at the Console to be sure that your string printed as expected.
 #
 ########################################################################
-
+print('Hello World')
 ########################################################################
 #
-# TODO: 4.
+# DONE: 4.
 #   Add yet another   print   statement.
 #   This one should print the *product* of 3,607 and 34,227.
 #   Let the computer do the arithmetic for you (no calculators!).
@@ -76,7 +76,7 @@ print('Hello, World')
 print(3404 * 837)
 ########################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   Look at the list of files in this project to the left.
 #   Note that this file (m2_hello_world.py) is now displayed in a blue
 #   font color (if the file is highlighted select a different file so yu can
